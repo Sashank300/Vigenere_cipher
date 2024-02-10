@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multilevel Encryption Scheme with Vigenère Cipher</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="header-top-right">
+            <p>Sashank A <br>VU21CSEN0101461</p>
+        </div>
+        <h1>Multilevel Vigenère Cipher</h1>
+    </header>
+    <div class="main">
+        <label for="keyword1">Keyword 1:</label>
+        <input type="text" id="keyword1"><br><br>
+
+        <label for="keyword2">Keyword 2:</label>
+        <input type="text" id="keyword2"><br><br>
+
+        <label for="plaintext">Plaintext:</label>
+        <textarea id="plaintext"></textarea><br><br>
+
+        <button onclick="multiEncrypt()">Encrypt</button>
+        <button onclick="multiDecrypt()">Decrypt</button><br><br>
+
+        <label for="ciphertext">Ciphertext:</label>
+        <textarea id="ciphertext"></textarea>
+    </div>
+    <p id="description">This cryptosystem is based on the Vigenère Cipher and utilizes a multilevel encryption scheme to enhance security. It employs two keywords for encryption and decryption, providing an extra layer of protection for your data.</p>
+</body>
+<footer>
+    <p>Sashank A VU21CSEN0101461</p>
+</footer>
+<script src="index.js"></script>
+</html>
