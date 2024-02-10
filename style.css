@@ -47,7 +47,10 @@ h1{ margin-left: 2%;
  margin-left: 3%;
  font-weight: bold;
  font-size: larger;
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ width: 90%; 
+margin: 0 auto; 
+padding: 20px; 
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 #input-area, #output-area {
